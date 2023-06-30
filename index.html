@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="main-box">
+        <div class="title">
+          <div class="text-title"><h4>New message</h4></div>
+          <div class="icon-title">
+            <div class="circle-box">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <form action="#" id="email-form" method="post">
+          <div class="box-to">
+            <input id="email" type="email" placeholder="To..." />
+          </div>
+          <div class="box-subject">
+            <input id="subject" type="text" placeholder="Subject..." />
+          </div>
+          <div class="message-box">
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <labe for="message"></labe>
+          </div>
+          <div class="btn-box">
+            <button type="submit" id="send-btn">SEND</button>
+            <button type="reset" id="reset-btn" value="reset">RESET</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/js.js"></script>
+  </body>
+</html>
